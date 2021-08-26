@@ -45,7 +45,7 @@ resource "ibm_is_subnet" "subnet2" {
 }
 
 resource "ibm_is_instance" "instance1" {
-  name    = "instance1"
+  name    = "instance1changed"
   image   = "${var.image}"
   profile = "${var.profile}"
 
