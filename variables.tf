@@ -1,6 +1,6 @@
 variable resource_group {
   description = "Name of resource group to provision resources"
-  default     = "testdefault2"
+  default     = "testdefault3pull"
 }
 
 variable "ibmcloud_region" {
